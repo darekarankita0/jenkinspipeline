@@ -28,7 +28,7 @@ pipeline {
 
         stage('Test using Maven'){
            steps {
-               echo 'sh mvn testt'
+               echo 'sh mvn test'
                 
            }
         }
